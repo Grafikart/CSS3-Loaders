@@ -2,6 +2,8 @@
 
 A collection of animated CSS3 only loaders.
 
+Demo: [http://htmlpreview.github.io/?https://github.com/Grafikart/CSS3-Loaders/blob/master/index.html](http://htmlpreview.github.io/?https://github.com/Grafikart/CSS3-Loaders/blob/master/index.html)
+
 ## I want to create a new loader ?
 
 If you want to participate in this project and create a new loader effect you can create a new .scss file and import it in the main app.scss (name your file as your class name, prefixed by loader-).
