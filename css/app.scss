@@ -1,0 +1,53 @@
+@import 'bourbon/bourbon';
+
+/* Variables */
+$size: 50px;
+
+/* Base */
+body{
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  font-size: 40px;
+  color:#FFF;
+  text-align: center;
+}
+
+.section{
+  background-color: #16a085;
+  height: 500px;
+  line-height: 500px;
+}
+.section-2{ background-color: #2980b9;}
+.section-3{ background-color: #e74c3c;}
+.section-4{ background-color: #8e44ad;}
+.loader{
+  width: $size;
+  height: $size;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+}
+
+
+
+/* Loaders */
+@import 'loader-quart';
+@import 'loader-double';
+@import 'loader-circles';
+@import 'loader-bars';
+
+/* Animations */
+@include keyframes(spin) {
+  from { @include transform(rotate(0deg)); }
+  to {  @include transform(rotate(360deg)); }
+}
+@include keyframes(spinreverse) {
+  from { @include transform(rotate(0deg)); }
+  to {  @include transform(rotate(-360deg)); }
+}
+@include keyframes(grow){
+  0% { @include transform(scaleY(0)); opacity:0;}
+  50% { @include transform(scaleY(1)); opacity:1;}
+  100% { @include transform(scaleY(0)); opacity:0;}
+}

@@ -1,0 +1,21 @@
+.loader-double{
+  border-radius:$size;
+  border: 6px solid transparent;
+  border-top-color:#FFF;
+  border-bottom-color:#FFF;
+  @include animation(spin 1s linear infinite);
+  &:after{
+    content:'';
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    bottom: 5px;
+    right: 5px;
+    border-radius:$size;
+    border: 6px solid transparent;
+    border-top-color:#FFF;
+    border-bottom-color:#FFF;
+    opacity:0.6;
+    @include animation(spinreverse 2s linear infinite);
+  }
+}
