@@ -65,5 +65,7 @@ body{
   90%{ background-color: rgba(255,255,255, 0); opacity: 1;}
 
   100%{
-    @include transform(scale(1)); border-width:1px; opacity: 0;}
+    @include transform(scale(1)); border-width:1px;
+    background-color: transparent;
+    opacity: 0;}
 }
