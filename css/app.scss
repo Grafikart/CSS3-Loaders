@@ -21,6 +21,7 @@ body{
 .section-2{ background-color: #2980b9;}
 .section-3{ background-color: #e74c3c;}
 .section-4{ background-color: #8e44ad;}
+.section-5{ background-color: #34495e;}
 .loader{
   width: $size;
   height: $size;
@@ -36,6 +37,7 @@ body{
 @import 'loader-double';
 @import 'loader-circles';
 @import 'loader-bars';
+@import 'loader-bubbles';
 
 /* Animations */
 @include keyframes(spin) {
