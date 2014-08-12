@@ -143,9 +143,9 @@ body {
   position: absolute;
   left: -25px;
   top: 0;
-  -webkit-animation: shatter 3s ease-in-out infinite;
-  -moz-animation: shatter 3s ease-in-out infinite;
-  animation: shatter 3s ease-in-out infinite;
+  -webkit-animation: shatter 2.3s ease-in-out infinite;
+  -moz-animation: shatter 2.3s ease-in-out infinite;
+  animation: shatter 2.3s ease-in-out infinite;
   -webkit-animation-delay: -0.66s;
   -moz-animation-delay: -0.66s;
   animation-delay: -0.66s; }

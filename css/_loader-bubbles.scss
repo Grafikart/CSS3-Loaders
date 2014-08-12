@@ -12,7 +12,7 @@
 		border: 0px solid white;
 		position: absolute;
 		left: -25px;top: 0;
-		@include animation(shatter 3s ease-in-out infinite);
+		@include animation(shatter 2.3s ease-in-out infinite);
 		@include animation-delay(-.66s);
 	}
 	&:after{
