@@ -2,7 +2,7 @@
 
 /* Variables */
 $size: 50px;
-
+ 
 /* Base */
 body{
   margin: 0;
@@ -11,23 +11,24 @@ body{
   font-size: 40px;
   color:#FFF;
   text-align: center;
-}
+} 
 
 .section{
   background-color: #16a085;
   height: 500px;
   line-height: 500px;
-}
+} 
 .section-2{ background-color: #2980b9;}
 .section-3{ background-color: #e74c3c;}
 .section-4{ background-color: #8e44ad;}
+.section-5{ background-color: #34495e;}
 .loader{
   width: $size;
   height: $size;
   display: inline-block;
   vertical-align: middle;
   position: relative;
-}
+} 
 
 
 
@@ -35,7 +36,8 @@ body{
 @import 'loader-quart';
 @import 'loader-double';
 @import 'loader-circles';
-@import 'loader-bars';
+@import 'loader-bars'; 
+@import 'loader-bubbles';
 
 /* Animations */
 @include keyframes(spin) {
@@ -46,8 +48,24 @@ body{
   from { @include transform(rotate(0deg)); }
   to {  @include transform(rotate(-360deg)); }
 }
-@include keyframes(grow){
+@include keyframes(grow) {
   0% { @include transform(scaleY(0)); opacity:0;}
   50% { @include transform(scaleY(1)); opacity:1;}
   100% { @include transform(scaleY(0)); opacity:0;}
+}
+@include keyframes(shatter){
+  0%{ @include transform(scale(0));}
+
+  50%{ @include transform(scale(.50));}
+
+  65%{ @include transform(scale(.40));
+    background-color: rgba(255,255,255, 1);
+    border-width:0px;}
+
+  90%{ background-color: rgba(255,255,255, 0); opacity: 1;}
+
+  100%{
+    @include transform(scale(1)); border-width:1px;
+    background-color: transparent;
+    opacity: 0;}
 }

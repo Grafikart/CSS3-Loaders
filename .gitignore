@@ -1,1 +1,3 @@
 .sass-cache
+css/bourbon/*
+.sassbuilder-config.json

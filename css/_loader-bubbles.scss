@@ -1,0 +1,27 @@
+.loader-bubbles{
+	&:before, 
+	&:after,
+	span{
+		content :'';
+		display: block;
+		box-sizing:border-box;
+		width: 25px;
+		height: 25px;
+		background-color: rgba(255,255,255,1);
+		border-radius: $size;
+		border: 0px solid white;
+		position: absolute;
+		left: -25px;top: 0;
+		@include animation(shatter 2.3s ease-in-out infinite);
+		@include animation-delay(-.66s);
+	}
+	&:after{
+		left:$size/3 - 15;
+		@include animation-delay(-.33s);
+	}
+	span{
+		left:2*($size/3) - 5;
+		@include animation-delay(0s);
+	}
+
+}
