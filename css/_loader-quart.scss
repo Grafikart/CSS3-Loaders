@@ -13,4 +13,8 @@
   border: 6px solid transparent;
   border-top-color:#FFF;
   @include animation(spin 1s linear infinite);
+
+  &.invert {
+    @include animation(spin 1s linear infinite reverse);
+  }
 }
