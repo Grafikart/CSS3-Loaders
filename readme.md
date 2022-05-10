@@ -13,3 +13,8 @@ For instance if you want to create a square loader name it .loader-square and cr
 ## AJOUT DE DOCUMENTATION
 
 Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+
+## AUTRE AJOUT DE DOCUMENTATION
+
+Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+
