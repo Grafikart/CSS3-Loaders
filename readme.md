@@ -9,6 +9,12 @@ Demo: [http://htmlpreview.github.io/?https://github.com/Grafikart/CSS3-Loaders/b
 If you want to participate in this project and create a new loader effect you can create a new .scss file and import it in the main app.scss (name your file as your class name, prefixed by loader-).
 For instance if you want to create a square loader name it .loader-square and create a new file _loader-square.scss
 
-## Todo
 
-- Remove bourbon dependencies (maybe using a bette library like compass with animation support)
+## AJOUT DE DOCUMENTATION
+
+Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+
+## AUTRE AJOUT DE DOCUMENTATION
+
+Lorem ipsum Lorem ipsum Lorem ipsum Lorem ipsum
+
