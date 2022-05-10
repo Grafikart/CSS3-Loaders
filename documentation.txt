@@ -1,0 +1,3 @@
+Ceci est la documentation détaillée ajoutée par le CCPW.
+
+C'est vraiment une doc détaillée !
